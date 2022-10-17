@@ -1,0 +1,75 @@
+.section__team {
+  padding: 94px 0;
+  background-color: $section-bc-hero;
+}
+.section__team-title {
+  text-align: center;
+  margin-bottom: 50px;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: $secondary-text-color;
+}
+.section__team-list {
+  display: flex;
+  text-align: center;
+  gap: 30px;
+}
+.card-main {
+  padding: 30px 0;
+}
+.hero-title {
+  margin-bottom: 10px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: $secondary-text-color;
+}
+.hero-description {
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+.list-hero-icon {
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.link-hero-icon {
+  width: 44px;
+  height: 44px;
+}
+.link-icon {
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 100%;
+
+  background-color: $title-color;
+  color: $color-svg;
+  border-radius: 24px;
+
+  transition: background-color $cubic-bezier, color $cubic-bezier;
+
+  &:hover,
+  &:focus {
+    color: $title-color;
+    background-color: $accent-color;
+  }
+}
+
+.section__team-link {
+  box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
+    0px 2px 1px rgb(0 0 0 / 20%);
+  border-radius: 0px 0px 4px 4px;
+  background-color: $title-color;
+}

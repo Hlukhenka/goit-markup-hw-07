@@ -1,0 +1,39 @@
+.section__work {
+  padding: 94px 0;
+}
+.section__work-title {
+  text-align: center;
+  margin-bottom: 50px;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: $secondary-text-color;
+}
+.section__work-list {
+  display: flex;
+  gap: 30px;
+}
+.work-img {
+  position: relative;
+}
+.box-title-img {
+  position: absolute;
+  bottom: 0;
+
+  width: 100%;
+  height: 70px;
+  background-color: rgba(47, 48, 58, 0.8);
+}
+.title-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  font-size: 14px;
+  line-height: 1, 1;
+  letter-spacing: 3%;
+  color: $title-color;
+}

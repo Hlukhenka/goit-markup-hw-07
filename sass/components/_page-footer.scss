@@ -1,0 +1,151 @@
+.page-footer__logo {
+  display: block;
+  margin-bottom: 20px;
+
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: $title-color;
+}
+
+.page-footer__logo-text {
+  color: $accent-color;
+}
+
+.page-footer {
+  padding: 60px 0;
+
+  background-color: $footer-color;
+}
+
+.page-footer__flex {
+  display: flex;
+  align-items: baseline;
+}
+
+.addres {
+  font-style: normal;
+}
+
+.page-footer__address {
+  width: 231px;
+  margin-right: 70px;
+}
+
+.page-footer__address-list {
+  margin-bottom: 9px;
+  &:last-child {
+    margin: 0;
+  }
+}
+
+.page-footer__address-link {
+  display: block;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: $primary-text-color;
+  text-decoration: none;
+
+  transition: color $cubic-bezier;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
+
+.page-footer__social-title {
+  display: block;
+  margin-bottom: 20px;
+
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+
+  color: $title-color;
+}
+
+.page-footer__social-list {
+  display: flex;
+  gap: 10px;
+}
+
+.page-footer_social-link {
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 100%;
+
+  background-color: rgba(255, 255, 255, 0.1);
+  color: $title-color;
+  border-radius: 24px;
+
+  transition: background-color $cubic-bezier;
+
+  &:hover,
+  &:focus {
+    fill: $title-color;
+    background-color: $accent-color;
+  }
+}
+.page-footer__social-item {
+  width: 44px;
+  height: 44px;
+}
+
+.page-footer__form-box {
+  width: 570px;
+  margin-left: 93px;
+}
+
+.page-footer__form {
+  display: flex;
+  gap: 12px;
+}
+
+.page-footer__form-email {
+  outline: none;
+  width: 358px;
+  height: 50px;
+  padding-left: 10px;
+
+  background-color: $footer-color;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  color: $primary-text-color;
+}
+
+.page-footer__form-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+
+  padding: 10px 28px;
+  width: 200px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+
+  color: $title-color;
+  background-color: $accent-color;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+  transition: background-color $cubic-bezier;
+
+  &:hover,
+  &:focus {
+    background-color: $secondary-accent-color;
+  }
+}

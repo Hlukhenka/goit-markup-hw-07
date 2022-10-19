@@ -2,7 +2,7 @@
   display: block;
   margin-bottom: 20px;
 
-  font-family: "Raleway";
+  font-family: $font-logo;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
@@ -35,10 +35,26 @@
   margin-right: 70px;
 }
 
-.page-footer__address-list {
+.page-footer__address-item {
   margin-bottom: 9px;
   &:last-child {
     margin: 0;
+  }
+}
+
+.page-footer__address-link-main {
+    display: block;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: $title-color;
+  text-decoration: none;
+
+  transition: color $cubic-bezier;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
   }
 }
 
